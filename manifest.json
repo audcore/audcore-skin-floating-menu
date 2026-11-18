@@ -5,7 +5,7 @@
   "kind": "native",
   "author": "17o2r",
   "license": "MIT",
-  "repository": "https://github.com/audcore/audcore-skin-floating",
+  "repository": "https://github.com/audcore/audcore-skin-floating-menu",
   "api": {
     "major": 0,
     "minor": 2
@@ -44,5 +44,6 @@
     ],
     "output": "build/skin.dll",
     "intermediate": "build/Audcore-Floating-v0.1.1/Audcore-Floating-v0.1.1.skin.audcore"
-  }
+  },
+  "description": "用可拖动的悬浮图标打开工程、通道和效果器菜单，以菜单完成常用调音操作。"
 }
