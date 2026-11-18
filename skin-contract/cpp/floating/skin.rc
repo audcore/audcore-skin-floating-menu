@@ -1,0 +1,29 @@
+#pragma code_page(65001)
+#include <windows.h>
+#include "version.h"
+
+AUDCORE_FLOATING_ICON ICON "icon.ico"
+
+#include "../native_menu/editor.rcinc"
+
+1 VERSIONINFO
+FILEVERSION AUDCORE_FLOATING_FILE_VERSION
+PRODUCTVERSION AUDCORE_FLOATING_FILE_VERSION
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_DLL
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "Audcore Floating Menu skin"
+            VALUE "FileVersion", AUDCORE_FLOATING_VERSION
+            VALUE "ProductName", "Audcore"
+            VALUE "ProductVersion", AUDCORE_FLOATING_VERSION
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1200
+    END
+END
